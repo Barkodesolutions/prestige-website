@@ -1,0 +1,185 @@
+/* Additional CSS for homepage enhancements */
+
+/* Hero Section Improvements */
+.hero {
+  background: linear-gradient(rgba(0, 45, 114, 0.8), rgba(30, 115, 190, 0.8)), url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  text-align: center;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto 35px;
+  line-height: 1.8;
+}
+
+.btn {
+  padding: 14px 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Services Section Enhancements */
+.services {
+  padding: 90px 0;
+}
+
+.service-card {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-content {
+  padding: 25px;
+}
+
+.service-content h3 {
+  color: var(--primary-blue);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.service-content h3:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: var(--primary-green);
+}
+
+.services-cta {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* About Preview Enhancements */
+.about-preview {
+  padding: 90px 0;
+  background-color: var(--background-light);
+}
+
+.about-text h2 {
+  color: var(--primary-blue);
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.about-text h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 3px;
+  background-color: var(--primary-green);
+}
+
+.about-text p {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.about-image img {
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Area Preview Enhancements */
+.service-area-preview {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.area-list-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.area-list-preview span {
+  background-color: var(--primary-blue);
+  color: var(--text-light);
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.area-cta {
+  margin-top: 30px;
+}
+
+/* Contact CTA Enhancements */
+.contact-cta {
+  background: linear-gradient(to right, var(--primary-blue), var(--secondary-blue));
+  color: var(--text-light);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-cta p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  
+  .contact-cta h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Logo Enhancements */
+.logo {
+  max-width: 250px;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}

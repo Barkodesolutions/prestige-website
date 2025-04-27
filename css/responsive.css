@@ -1,0 +1,224 @@
+/* Mobile responsiveness enhancements */
+
+/* General responsive adjustments */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Header and navigation adjustments */
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo {
+        max-width: 200px;
+        margin-bottom: 15px;
+    }
+    
+    .header-contact {
+        margin-left: 0;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+/* Homepage responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 0;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .services-grid, 
+    .features-grid, 
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .about-text {
+        margin-bottom: 30px;
+    }
+    
+    .about-image {
+        text-align: center;
+    }
+    
+    .area-list-preview {
+        flex-wrap: wrap;
+    }
+    
+    .contact-cta h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* About page responsive adjustments */
+@media (max-width: 768px) {
+    .company-story .about-content {
+        flex-direction: column-reverse;
+    }
+    
+    .approach-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .approach-icon {
+        margin-bottom: 15px;
+    }
+    
+    .leader-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .leader-image {
+        margin-bottom: 20px;
+    }
+    
+    .areas-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Services page responsive adjustments */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .service-category {
+        padding: 40px 0;
+    }
+    
+    .service-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .service-icon {
+        margin-bottom: 15px;
+    }
+    
+    .process-step {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .step-number {
+        margin-bottom: 15px;
+    }
+    
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Service area page responsive adjustments */
+@media (max-width: 768px) {
+    .area-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .area-map {
+        height: 300px;
+    }
+}
+
+/* Contact page responsive adjustments */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info {
+        margin-bottom: 30px;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-item i {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+
+/* Footer responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-section {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .footer-section:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+}

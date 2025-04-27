@@ -1,0 +1,252 @@
+/* Additional CSS for homepage enhancements */
+
+/* Hero Section Improvements */
+.hero {
+    background: linear-gradient(rgba(0, 45, 114, 0.8), rgba(30, 115, 190, 0.8)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: 0 auto 35px;
+    line-height: 1.8;
+}
+
+.btn {
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Cards Enhancement */
+.services {
+    padding: 90px 0;
+}
+
+.service-card {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-content {
+    padding: 25px;
+}
+
+.service-content h3 {
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.service-content h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-green);
+}
+
+.services-cta {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* About Preview Enhancement */
+.about-preview {
+    padding: 90px 0;
+    background-color: var(--background-light);
+}
+
+.about-text h2 {
+    color: var(--primary-blue);
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.about-text h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background-color: var(--primary-green);
+}
+
+.about-text p {
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.about-image img {
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Area Preview Enhancement */
+.service-area-preview {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.area-list-preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.area-list-preview span {
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.area-cta {
+    margin-top: 30px;
+}
+
+/* Contact CTA Enhancement */
+.contact-cta {
+    background: linear-gradient(to right, var(--primary-blue), var(--secondary-blue));
+    color: var(--text-light);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-cta p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 90px 0;
+    background-color: var(--background-light);
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.testimonial-card {
+    background-color: var(--text-light);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.testimonial-card:before {
+    content: '\201C';
+    font-size: 80px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    color: var(--primary-green);
+    opacity: 0.2;
+}
+
+.testimonial-content {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 90px 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.feature {
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: var(--text-light);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature i {
+    font-size: 40px;
+    color: var(--primary-green);
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    .contact-cta h2 {
+        font-size: 2rem;
+    }
+}
